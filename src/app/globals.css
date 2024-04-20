@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@font-face {
+  font-family: "mainMedium";
+  src: url("/fonts/29LTZaridDisplay-Medium.otf");
+}
+@font-face {
+  font-family: "mainRegular";
+  src: url("/fonts/29LTZaridSansAL-Regular.otf");
+}
+@font-face {
+  font-family: "mainSemiBold";
+  src: url("/fonts/29LTZaridSansAL-SemiBold.otf");
+}
+.mainMedium {
+  font-family: "mainMedium", sans-serif;
+}
+.mainRegular {
+  font-family: "mainRegular", sans-serif;
+}
+.mainSemiBold {
+  font-family: "mainSemiBold", sans-serif;
+}
+
+.slick-dots {
+  bottom: 1.5rem !important;
+}
+.slick-dots li {
+  width: auto !important;
+  height: auto !important;
+}
+.slick-dots li:not(:first-child) {
+  margin-right: 7px !important;
+  margin-left: 7px !important;
+}
+.slick-dots li button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  border: 1px solid white !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.slick-dots li.slick-active button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+  background: white !important;
+}
+
+.slick-disabled {
+  opacity: 25%;
+}
+
+@media (max-width: 640px) {
+  .ant-tabs-nav-wrap {
+    justify-content: flex-start !important;
+  }
+}
