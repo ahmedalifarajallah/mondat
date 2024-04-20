@@ -32,9 +32,17 @@ const AboutUsPage = () => {
         ]}
       />
 
-      {/* Start-original */}
-
       <main className="bg-primary relative aspect-video">
+        <div className="lg:hidden absolute top-0 left-0 w-full h-full">
+          <Image
+            src="/imgs/About-Us-Bg.png"
+            alt=""
+            fill
+            objectPosition="bottom"
+            className="object-cover"
+          />
+        </div>
+
         {/* <Image
           fill
           src="/imgs/Team.png"
@@ -73,11 +81,9 @@ const AboutUsPage = () => {
             </div>
             <div className="flex-1">
               <div className="relative aspect-square">
-
                 {/* <div style={{backgroundImage: `url('/imgs/Team.png')`}}>
 
                 </div> */}
-
 
                 <Image
                   src="/imgs/Team.png"
@@ -88,9 +94,6 @@ const AboutUsPage = () => {
                   className="object-contain"
                 />
               </div>
-
-
-
 
               {/* <Carousel>
                 <div className="relative aspect-square">
@@ -116,8 +119,6 @@ const AboutUsPage = () => {
         </div>
         {/* </div> */}
       </main>
-
-      {/* End-original */}
 
       <section className="bg-black">
         <div className="py-24 px-4 lg:px-12">
