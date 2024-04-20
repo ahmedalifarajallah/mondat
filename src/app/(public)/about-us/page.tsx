@@ -34,15 +34,15 @@ const AboutUsPage = () => {
 
       <main className="bg-primary absolute top-0 left-0 w-full h-full relative aspect-video" style={{backgroundImage: "url('/imgs/Aboutbg.png')"}}>
         
-        <div className="py-12 lg:pl-12 py-12 relative z-[1] lg:min-h-[60vh]">
+        <div className="py-12 px-4 lg:px-12 relative z-[1] lg:min-h-[60vh]">
           {/* <h3 className="text-3xl font-bold mb-6">MODAD</h3> */}
           {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:min-h-[60vh]"> */}
-          <div className="flex px-4 lg:px-0 lg:gap-5">
-            <div className="text-white pb-4 flex flex-col justify-start w-full lg:w-5/12">
-              <h4 className="text-xl font-bold mb-4 uppercase">
+          <div className="">
+            <div className="text-white pb-4 w-full">
+              <h4 className="text-xl lg:text-2xl font-bold mb-4 uppercase">
                 Welcome to MODAD Group
               </h4>
-              <p className="text-lg text-justify">
+              <p className="text-lg lg:text-xl text-justify lg:leading-8 xl:leading-10">
                 A dynamic conglomerate built on the pillars of passion,
                 innovation, and excellence. Since our inception in 2011, we have
                 been at the forefront of the Construction, Real Estate
