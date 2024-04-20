@@ -35,7 +35,7 @@ const AboutUsPage = () => {
       <main className="bg-primary relative aspect-video">
         <div className="lg:hidden absolute top-0 left-0 w-full h-full">
           <Image
-            src="/imgs/About-Us-Bg.png"
+            src="/imgs/About-Us-BG.png"
             alt=""
             fill
             objectPosition="bottom"
