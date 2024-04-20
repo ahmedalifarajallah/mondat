@@ -32,23 +32,8 @@ const AboutUsPage = () => {
         ]}
       />
 
-      <main className="bg-primary relative aspect-video">
-        <div className="lg:hidden absolute top-0 left-0 w-full h-full">
-          <Image
-            src="/imgs/About-Us-BG.png"
-            alt=""
-            fill
-            objectPosition="bottom"
-            className="object-cover"
-          />
-        </div>
-
-        {/* <Image
-          fill
-          src="/imgs/Team.png"
-          alt=""
-          className="object-cover opacity-25"
-        /> */}
+      <main className="bg-primary absolute top-0 left-0 w-full h-full relative aspect-video" style={{backgroundImage: "url('/imgs/Aboutbg.png')"}}>
+        
         <div className="py-12 lg:pl-12 py-12 relative z-[1] lg:min-h-[60vh]">
           {/* <h3 className="text-3xl font-bold mb-6">MODAD</h3> */}
           {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:min-h-[60vh]"> */}
@@ -78,41 +63,6 @@ const AboutUsPage = () => {
                 a conglomerate; we are a force shaping a brighter, more
                 prosperous future for generations to come.
               </p>
-            </div>
-            <div className="flex-1">
-              <div className="relative aspect-square">
-                {/* <div style={{backgroundImage: `url('/imgs/Team.png')`}}>
-
-                </div> */}
-
-                <Image
-                  src="/imgs/Team.png"
-                  alt=""
-                  height={1080}
-                  width={1920}
-                  objectPosition="top"
-                  className="object-contain"
-                />
-              </div>
-
-              {/* <Carousel>
-                <div className="relative aspect-square">
-                  <Image
-                    src="/imgs/Team.jpg"
-                    alt=""
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="relative aspect-square">
-                  <Image
-                    src="/imgs/shutterstock_2145134953.jpg"
-                    alt=""
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </Carousel> */}
             </div>
           </div>
           <div></div>
