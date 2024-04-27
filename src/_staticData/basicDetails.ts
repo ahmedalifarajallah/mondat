@@ -23,7 +23,7 @@ export const companies: {
     path: "modad-mep",
     discription:
       "Your trusted partner in MEP solutions and sustainable life cycle services. With a focus on modern infrastructure development, inclusive facility management, and reliable supply services, we pave the way for a greener and more efficient future. As an electromechanical supplies company, we provide a wide range of reliable products and components to complement your systems. Whether standalone or integrated with existing services, our supply services meet the highest industry standards.",
-    img: "MODAD-MEP.jpg",
+    img: "MODAD-MEP.webp",
   },
   {
     name: "MODAD Smart Solutions",

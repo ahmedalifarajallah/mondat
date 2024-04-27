@@ -23,7 +23,7 @@ export default async function Home() {
 
   return (
     <>
-      <main className=" xl:max-h-screen">
+      <main className="xl:max-h-screen">
         <div className="w-full">
           <Carousel
             slidesToShow={1}
@@ -149,27 +149,40 @@ export default async function Home() {
           </Carousel>
         </div>
       </main>
+
       <section>
         <div className="w-full xl:min-h-[100vh]  flex flex-col-reverse xl:flex-row relative overflow-hidden">
-          <div className="bg-[#111619] w-full xl:w-[45%] flex py-6 px-4 lgLpx-12 items-center">
+          <div className="bg-[#111619] w-full xl:w-[45%] flex py-6 px-4 lg:px-12 items-center">
             <div className="relative z-[2] ">
               <h2 className="text-primary font-bold uppercase text-2xl mb-4">
                 Chairman message
               </h2>
-              <p className="text-white text-justify pr-5">
+              <p className="text-white text-justify pr-5 mb-4">
                 It is with great pleasure and gratitude that I welcome you to
                 the world of MODAD Group of Companies. Since our humble
                 beginnings in 2011, we have strived relentlessly to build a
                 legacy of excellence, innovation, and unwavering commitment to
-                our clients and stakeholders...
+                our clients and stakeholders. At MODAD Group, we firmly believe
+                that our success is a direct result of our company culture,
+                which places utmost importance on integrity, collaboration, and
+                the pursuit of excellence. These core values have been the
+                driving force behind our achievements and the strong
+                relationships we have built over the years. We take immense
+                pride in our diverse portfolio of companies, spanning real
+                estate development, construction, MEP services, and digital
+                transformation. We are committed to creating long-term value,
+                fostering sustainable growth, and contributing to the
+                communities we serve. We invite you to explore the vast
+                possibilities and opportunities within our group, confident that
+                together, we can achieve remarkable milestones and unlock new
+                horizons of success.
               </p>
-              <div className="px-1">
-                <ReadMoreCollapse
-                  signature="Mohamed El Haddad"
-                  lastLine="Founder and CEO, MODAD Group of Companies"
-                  content="At MODAD Group, we firmly believe that our success is a direct result of our company culture, which places utmost importance on integrity, collaboration, and the pursuit of excellence. These core values have been the driving force behind our achievements and the strong relationships we have built over the years. We take immense pride in our diverse portfolio of companies, spanning real estate development, construction, MEP services, and digital transformation. We are committed to creating long-term value, fostering sustainable growth, and contributing to the communities we serve. We invite you to explore the vast possibilities and opportunities within our group, confident that together, we can achieve remarkable milestones and unlock new horizons of success."
-                />
-              </div>
+              <p className="text-white font-bold text-base mt-2 mb-1">
+                Mohamed El Haddad
+              </p>
+              <p className="text-white font-bold text-base">
+                Founder and CEO, MODAD Group of Companies
+              </p>
             </div>
           </div>
           <div className="w-full aspect-video xl:aspect-auto xl:w-[55%] relative transition-all duration-300">
@@ -186,6 +199,7 @@ export default async function Home() {
           </div> */}
         </div>
       </section>
+
       <section>
         <div className="py-16 px-4 lg:px-12">
           <h2 className="text-primary text-xl sm:text-3xl font-bold text-center">
@@ -297,7 +311,7 @@ export default async function Home() {
           <h2 className="text-primary text-2xl xl:text-3xl mb-6 xl:mb-12">
             Current Projects
           </h2>
-          <div className="w-full" style={{padding: "0 4.5%"}}>
+          <div className="w-full" style={{ padding: "0 4.5%" }}>
             <Carousel
               arrows
               dots={false}
@@ -365,7 +379,10 @@ export default async function Home() {
             <div>
               <h3 className="text-2xl xl:text-3xl">News</h3>
             </div>
-            <div className="col-span-5 flex flex-col gap-4" style={{padding: "0 4.5%"}}>
+            <div
+              className="col-span-5 flex flex-col gap-4"
+              style={{ padding: "0 4.5%" }}
+            >
               <Carousel
                 dots={false}
                 arrows

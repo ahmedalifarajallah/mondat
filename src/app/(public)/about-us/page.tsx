@@ -1,20 +1,9 @@
 import BreadCrumbs from "@/components/UI/BreadCrumbs";
-import CXALeft from "@/components/UI/CarouselXArrows/CXALeft";
-import CXARight from "@/components/UI/CarouselXArrows/CXARight";
 import HomeExpCard from "@/components/UI/HomeExpCard";
 import { faBullseye, faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Carousel } from "antd";
 import { Metadata } from "next";
 import Image from "next/image";
-import logo1 from "@/assets/companiesLogos/Modad Consratuction-Black.svg";
-import logo2 from "@/assets/companiesLogos/Modad Properties-Black.svg";
-import logo3 from "@/assets/companiesLogos/Modad MEP-Black.svg";
-import logo4 from "@/assets/companiesLogos/Modad Smart Solutions-Black.svg";
-import logo5 from "@/assets/companiesLogos/Modad Fine Finishing-Black.svg";
-import logo6 from "@/assets/companiesLogos/Modad Charity Foundation-Black.svg";
-import Link from "next/link";
-import ServiceCard from "@/components/UI/ServiceCard";
 import { companies, companies2 } from "@/_staticData/basicDetails";
 
 export const metadata: Metadata = {
@@ -32,6 +21,7 @@ const AboutUsPage = () => {
         ]}
       />
 
+<<<<<<< Updated upstream
       <main className="bg-primary relative aspect-video">
         <div className="lg:hidden absolute top-0 left-0 w-full h-full">
           <Image
@@ -114,10 +104,45 @@ const AboutUsPage = () => {
                 </div>
               </Carousel> */}
             </div>
+=======
+      <main className="py-12 px-4 lg:px-12 z-[-3] bg-primary w-full h-full relative min-h-[45vh]">
+        <Image
+          src="/imgs/Aboutbg.png"
+          alt=""
+          fill
+          className="object-cover absolute h-full w-full top-0 left-0 z-[-2]"
+          // loading="lazy"
+        />
+
+        <div className="z-[2]">
+          <div className="text-white pb-4 w-full">
+            <h4 className="text-xl lg:text-2xl font-bold mb-4 uppercase">
+              Welcome to MODAD Group
+            </h4>
+            <p className="text-lg text-justify lg:leading-8">
+              A dynamic conglomerate built on the pillars of passion,
+              innovation, and excellence. Since our inception in 2011, we have
+              been at the forefront of the Construction, Real Estate
+              Development, MEP services, and Smart solutions industries, shaping
+              a better tomorrow for communities worldwide. Led by visionary
+              Founder and Chairman, Engineer Mohamed El-Haddad, our group is
+              driven by a steadfast commitment to delivering exceptional
+              engineering solutions and infrastructure development. With over 12
+              years of expertise and a growing portfolio of successful projects,
+              we have earned the trust of clients and investors alike. From Real
+              Estate Development, Construction & Engineering Solutions,
+              Electromechanical Services, Fine Finishing, to Smart Solutions,
+              our diverse range of companies provides comprehensive solutions
+              tailored to the unique needs of our clients. Join us on a
+              remarkable journey of engineering excellence, sustainable
+              development, and meaningful contributions to society. At MODAD
+              Group, we are more than just a conglomerate; we are a force
+              shaping a brighter, more prosperous future for generations to
+              come.
+            </p>
+>>>>>>> Stashed changes
           </div>
-          <div></div>
         </div>
-        {/* </div> */}
       </main>
 
       <section className="bg-black">

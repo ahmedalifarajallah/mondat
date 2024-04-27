@@ -5,6 +5,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "ecdegypt.com",
+        pathname: "/public/imgs/**"
       },
     ],
   },

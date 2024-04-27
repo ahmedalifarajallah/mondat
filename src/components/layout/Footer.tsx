@@ -60,7 +60,7 @@ const Footer = () => {
           
           <div className="flex flex-col items-start lg:items-end gap-5 my-6 md:mt-0">
             <div>
-              <p className="uppercase font-bold text-xl">Contact with us</p>
+              <p className="uppercase font-bold text-xl">FOLLOW US</p>
               <div>
                 <FooterContactForm />
               </div>
