@@ -7,8 +7,8 @@ const FooterContactForm = () => {
   return (
     <Form layout="vertical">
       <Form.Item name="email" label="Subscribe to our newsletter">
-        <Space.Compact>
-          <Input placeholder="Email" />
+        <Space.Compact className="w-full">
+          <Input placeholder="Email"/>
           <Button htmlType="submit">
             <FontAwesomeIcon icon={faArrowRight} />
           </Button>
