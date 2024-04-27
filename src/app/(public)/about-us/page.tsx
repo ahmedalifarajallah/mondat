@@ -23,7 +23,7 @@ const AboutUsPage = () => {
 
       <main className="py-12 px-4 lg:px-12 z-[-3] bg-primary w-full h-full relative min-h-[45vh]">
         <Image
-          src="/imgs/Aboutbg.png"
+          src="/imgs/About-Us-BG"
           alt=""
           fill
           className="object-cover absolute h-full w-full top-0 left-0 z-[-2]"
