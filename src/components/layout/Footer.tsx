@@ -6,7 +6,6 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons/faYoutube";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons/faFacebookF";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
-import FooterContactForm from "./FooterContactForm";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
 const Footer = () => {
   return (
@@ -58,36 +57,39 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col items-start lg:items-end gap-5 my-6 md:mt-0">
-              <div className="w-full">
-                <p className="uppercase font-bold text-xl">FOLLOW US</p>
-                <div>
-                  <FooterContactForm />
-                </div>
-                <div className="flex gap-2 justify-evenly items-center md:w-full lg:w-full">
+              <div className="w-full text-center">
+                <p className="uppercase font-bold text-xl mb-3">FOLLOW US</p>
+
+                {/* Social Icons */}
+                <div className="flex justify-center align-center gap-3">
                   <Link
                     href="/"
                     className="bg-primary rounded-[50%] p-2 h-9 w-9 md:w-8 md:h-8 lg:h-9 lg:w-9 flex items-center justify-center "
                   >
                     <FontAwesomeIcon icon={faInstagram} />
                   </Link>
+
                   <Link
                     href="/"
                     className="bg-primary rounded-[50%] p-2 h-9 w-9 md:w-8 md:h-8 lg:h-9 lg:w-9 flex items-center justify-center "
                   >
                     <FontAwesomeIcon icon={faFacebookF} />
                   </Link>
+
                   <Link
                     href="/"
                     className="bg-primary rounded-[50%] p-2 h-9 w-9 md:w-8 md:h-8 lg:h-9 lg:w-9 flex items-center justify-center "
                   >
                     <FontAwesomeIcon icon={faXTwitter} />
                   </Link>
+
                   <Link
                     href="/"
                     className="bg-primary rounded-[50%] p-2 h-9 w-9 md:w-8 md:h-8 lg:h-9 lg:w-9 flex items-center justify-center "
                   >
                     <FontAwesomeIcon icon={faYoutube} />
                   </Link>
+
                   <Link
                     href="/"
                     className="bg-primary rounded-[50%] p-2 h-9 w-9 md:w-8 md:h-8 lg:h-9 lg:w-9 flex items-center justify-center "
@@ -98,7 +100,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="mt-4">
+
+          <div className="mt-4 sm:mt-6">
             <p className="text-primary text-center">
               &copy; 2024 <Link href="/">MODAD</Link>. All rights reserved.
             </p>
